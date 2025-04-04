@@ -1,0 +1,299 @@
+*{
+    font-family: 'Rubik';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+nav ul {
+    gap: 60px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #363853;
+    transition: 1s;
+}
+nav ul a:hover{
+    text-shadow: 5px 5px 5px #FF7A50;
+    color: #ff7a50;
+}
+.btn{
+    text-shadow: none;
+    padding: 15px 27px;
+    background-color: #FF7A50;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 22px 40px 0px #ff683830;
+}
+.btn:hover{
+    color: #ff4d00;
+    background-color: white;
+    border: 3px solid #ff4d00;
+}
+.fastfood{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+align-items: center;
+}
+.title{
+    text-transform: capitalize;
+}
+.h1{
+    color: #363853;
+    font-family: Rubik;
+font-weight: 500;
+font-size: 66px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+width: 530px;
+padding-bottom: 23px;
+}
+.p{
+    color:#363853 ;
+    font-family: Rubik;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0%;
+text-transform: capitalize;
+padding-bottom: 45px;
+}
+.span{
+    color: #FF7A50;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    font-family: Rubik;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+align-items: center;
+}
+.btn1{
+    background-color: #FF7A50;
+color: white;
+padding: 13px 21px 13px;
+border-radius: 5px;
+box-shadow: 0px 22px 40px 0px #FF683830;
+transition: 1s;
+}
+.btn1:hover{
+    color: #ff4d00;
+    background-color: white;
+    border: 3px solid #ff4d00;
+}
+.btn2{
+    color: #363853;
+}
+.delivery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h2{
+    padding-bottom: 95px;
+    font-family: Rubik;
+font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: 0%;
+text-transform: capitalize;
+width: 384px;
+color: #363853;
+}
+.button1{
+    font-family: Rubik;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.btn3{
+    margin-top: 114px;
+    background-color: #FF7A50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 17px 41px;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+
+    transition: 1s;
+}
+.btn3:hover{
+    color: #ff4d00;
+    background-color: white;
+    border: 3px solid #ff4d00;
+}
+h3{
+    font-family: Rubik;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #363853;
+padding-top: 22px;
+padding-left: 20px;
+padding-bottom: 14px;
+}
+.time{
+    font-family: Rubik;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #363853;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.btn4{
+    background-color: #FF7A50;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 5px 27px;
+    color: white;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    transition: 1s;
+    height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.titleh2{
+    text-align: center;
+    color: #363853;
+    margin-bottom: 50px;
+    margin-top: 44px;
+}
+.buttonn{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 26px;
+    gap: 30px;
+}
+.blaze, .ranch, .dions{
+    border-top-left-radius: 53px;
+    border-bottom-right-radius: 53px;
+    
+}
+.pizza{
+    display: flex;
+gap: 43px;
+justify-content: center;
+}
+.app{
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hh2{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #363853;
+margin-bottom: 30px;
+}
+p{
+    font-family: Rubik;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #363853;
+margin-bottom: 30px;
+
+}
+.img1{
+    margin-right: 35px;
+}
+.h2-input{
+    color: white;
+    text-align: center;
+    padding-bottom: 72px;
+    font-family: Rubik;
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.subscribe{
+    background-color: #FF7A50;
+    margin-top: 110px;
+    padding-top: 59px;
+    border-radius: 15px;
+padding-bottom: 56px;
+margin-bottom: 182px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.input{
+    padding-top: 25px;
+    padding-left: 43px;
+    padding-bottom: 25px;
+    border: 0px solid #FFFFFF;
+    font-family: Rubik;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 70px;
+}
+
+.subscribe-box{
+    background-color: #FFFFFF;
+    width: 838px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 70px;
+}
+button{
+color: white;
+border: 0px solid #000;
+background-color: #FF7A50;
+border-radius: 70px;
+margin: 10px 10px;
+width: 191px;
+font-family: Rubik;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+}
